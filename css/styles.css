@@ -1,0 +1,287 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --header-color: #212121;
+  --accent-color: #2196f3;
+  --header-contacts-color: #757575;
+  --logo-main-color: #2196f3;
+  --logo-header-color: #212121;
+  --logo-footer-color: #ffffff;
+  --logo-font-family: "Raleway", sans-serif;
+  --header-bg-color: #ffffff;
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --btn-text-color: #ffffff;
+  --btn-main-bg-color: #2196f3;
+  --btn-hover-color: #188ce8;
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --hero-background: #2f303a;
+  --team-background: #f5f4fa;
+  --team-member-background: #ffffff;
+  --main-footer-text-color: #ffffff;
+  --second-footer-text-color: rgba(255, 255, 255, 0.6);
+  --footer-background: #2f303a;
+  --pf-btn-main-bg: #f5f4fa;
+  --pf-btn-hover-bg: #2196f3;
+  --pf-btn-main-text: #212121;
+  --pf-btn-hover-text: #ffffff;
+  --pf-item-bg: #ffffff;
+}
+
+/* ---------------------------------------HEADER---------------------------------------- */
+
+.header-logo {
+  font-family: var(--logo-font-family);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.header-logo-main {
+  color: var(--logo-main-color);
+}
+.header-logo-second {
+  color: var(--logo-header-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-contacts-color);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.header {
+  background-color: var(--header-bg-color);
+}
+
+.header-list .link.current {
+  color: var(--accent-color);
+}
+
+/* ----------------------------------------MAIN---------------------------------------- */
+
+.hero {
+  background-color: var(--hero-background);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--btn-text-color);
+  background-color: var(--btn-main-bg-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--btn-text-color);
+  background-color: var(--btn-hover-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+/* ----------------------------------------TEAM--------------------------------------- */
+
+.team-list-item {
+  background-color: var(--team-member-background);
+}
+
+.team {
+  background-color: var(--team-background);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.member-major {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* --------------------------------------FOOTER---------------------------------------- */
+
+.footer {
+  background-color: var(--footer-background);
+}
+
+.footer-logo {
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo-main {
+  color: var(--logo-main-color);
+}
+
+.footer-logo-second {
+  color: var(--logo-footer-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.footer-address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-footer-text-color);
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-footer-text-color);
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* --------------------------------------PORTFOLIO---------------------------------------- */
+
+.pf-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--pf-btn-main-text);
+  background-color: var(--pf-btn-main-bg);
+}
+
+.pf-btn:hover,
+.pf-btn:focus {
+  color: var(--pf-btn-hover-text);
+  background-color: var(--pf-btn-hover-bg);
+}
+
+.pf-item {
+  background-color: var(--pf-item-bg);
+}
+
+.pf-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.pf-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
