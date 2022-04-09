@@ -32,16 +32,18 @@ body {
 }
 
 /* ---------------------------------------HEADER---------------------------------------- */
-
 .header-logo {
+  font-weight: 700;
   font-family: var(--logo-font-family);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .header-logo-main {
   color: var(--logo-main-color);
 }
+
 .header-logo-second {
   color: var(--logo-header-color);
 }
@@ -112,6 +114,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--btn-text-color);
   background-color: var(--btn-main-bg-color);
+  cursor: pointer;
 }
 
 .button:hover,
@@ -258,6 +261,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--pf-btn-main-text);
   background-color: var(--pf-btn-main-bg);
+  cursor: pointer;
 }
 
 .pf-btn:hover,
