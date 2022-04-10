@@ -1,5 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
 }
 
 :root {
@@ -37,7 +40,6 @@ body {
   font-family: var(--logo-font-family);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .header-logo-main {
@@ -58,7 +60,6 @@ body {
 
 .header-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-color);
@@ -71,7 +72,6 @@ body {
 
 .header-contacts-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-contacts-color);
@@ -137,18 +137,14 @@ body {
 }
 
 .benefits-title {
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
 }
 
 .benefits-text {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 
@@ -157,7 +153,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
 
@@ -176,7 +171,6 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
 
@@ -185,7 +179,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
@@ -194,7 +187,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 
@@ -209,7 +201,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .footer-logo-main {
@@ -226,17 +217,13 @@ body {
 
 .footer-address-link {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--main-footer-text-color);
 }
 
 .footer-link {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--second-footer-text-color);
 }
 
@@ -258,7 +245,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--pf-btn-main-text);
   background-color: var(--pf-btn-main-bg);
   cursor: pointer;
